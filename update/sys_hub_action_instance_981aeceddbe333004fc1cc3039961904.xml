@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Notification to Students">027d8029dba333004fc1cc3039961908</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 09:21:44</sys_created_on>
+        <sys_id>981aeceddbe333004fc1cc3039961904</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Organisation" source="x_398374_event_org">2b992b95db2333004fc1cc30399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Organisation">2b992b95db2333004fc1cc30399619b4</sys_scope>
+        <sys_update_name>sys_hub_action_instance_981aeceddbe333004fc1cc3039961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 09:21:44</sys_updated_on>
+        <ui_id>78062584-3f5a-42ea-bf28-09bb5ee559fc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=981aeceddbe333004fc1cc3039961904"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>981aeceddbe333004fc1cc3039961904</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 09:21:44</sys_created_on>
+        <sys_id>141aeceddbe333004fc1cc303996193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 09:21:44</sys_updated_on>
+        <value>Registered</value>
+        <variable display_value="">b21241160b100300d97d8bf637673a4a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>981aeceddbe333004fc1cc3039961904</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 09:21:44</sys_created_on>
+        <sys_id>501aeceddbe333004fc1cc303996193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 09:21:44</sys_updated_on>
+        <value>&lt;p&gt;Thank You for registration.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</value>
+        <variable display_value="">c71241160b100300d97d8bf637673a55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=981aeceddbe333004fc1cc3039961904"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>981aeceddbe333004fc1cc3039961904</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 09:21:44</sys_created_on>
+        <sys_id>dc1aeceddbe333004fc1cc303996193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 09:21:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>981aeceddbe333004fc1cc3039961904</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 09:21:44</sys_created_on>
+        <sys_id>1c1aeceddbe333004fc1cc303996193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 09:21:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>981aeceddbe333004fc1cc3039961904</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 09:21:44</sys_created_on>
+        <sys_id>581aeceddbe333004fc1cc303996193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 09:21:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created or Updated_1.current.s_email}}</value>
+    </sys_element_mapping>
+</record_update>

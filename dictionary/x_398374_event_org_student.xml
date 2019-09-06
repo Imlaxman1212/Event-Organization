@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student" max_length="40" name="x_398374_event_org_student" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Branch" max_length="40" name="branch" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_398374_event_org_event" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="s_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Student ID" max_length="40" name="s_id" type="string"/>
+        <element label="Year" max_length="40" name="year" type="integer"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

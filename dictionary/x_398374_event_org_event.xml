@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Event" max_length="40" name="x_398374_event_org_event" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Academic" sequence="0" value="academic"/>
+                <element inactive_on_update="false" label="Cultural" sequence="1" value="cultural"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Event Date" max_length="40" name="event_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Event Name" mandatory="true" max_length="40" name="event_name" type="string"/>
+        <element label="Budget" max_length="40" name="fund_required" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Date for Registration" max_length="40" name="ld_registration" type="glide_date"/>
+        <element label="Organizer" max_length="32" name="organizer" reference="x_398374_event_org_organizer" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="awaiting_approval" label="Status" max_length="40" name="status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="2" value="awaiting_approval"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="organizer"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

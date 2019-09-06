@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>notification_to_students</internal_name>
+        <label_cache>[{"name":"c18d5e9b-f30e-4407-bfb7-e2d8003d177f.email","label":"2.1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger➛Student Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_398374_event_org_student","column_name":"sys_created_on"},{"name":"Created or Updated_1.current.s_email","label":"Trigger➛Student Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_398374_event_org_student","column_name":"s_email"},{"name":"fc761791-9e0b-4253-b5fa-3b1ea9e5bb64.email","label":"1.1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.l_date","label":"Trigger➛Student Record➛Last Date for Registration","reference":"","reference_display":"Last Date for Registration","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_398374_event_org_student","column_name":"l_date"},{"name":"Created or Updated_1.current.branch","label":"Trigger➛Student Record➛Branch","reference":"","reference_display":"Branch","type":"string","base_type":"string","parent_table_name":"x_398374_event_org_student","column_name":"branch"},{"name":"51f84e11-ed6f-43b1-b918-591c708c2ec5.Record.ld_registration","label":"1➛Event Record➛Last Date for Registration","reference":"","reference_display":"Last Date for Registration","type":"glide_date","base_type":"glide_date","parent_table_name":"x_398374_event_org_event","column_name":"ld_registration"},{"name":"51f84e11-ed6f-43b1-b918-591c708c2ec5.Table","label":"1➛Event Table","reference":"x_398374_event_org_event","reference_display":"Event","type":"table_name","base_type":"table_name"},{"name":"51f84e11-ed6f-43b1-b918-591c708c2ec5.Record","label":"1➛Event Record","reference":"x_398374_event_org_event","reference_display":"Event","type":"reference","base_type":"reference"},{"name":"1ee28309-b486-452a-88bf-daf6fd06a120.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"1ee28309-b486-452a-88bf-daf6fd06a120.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"78062584-3f5a-42ea-bf28-09bb5ee559fc.email","label":"1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Notification to Students</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-28 07:16:48</sys_created_on>
+        <sys_id>027d8029dba333004fc1cc3039961908</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Notification to Students</sys_name>
+        <sys_package display_value="Event Organisation" source="x_398374_event_org">2b992b95db2333004fc1cc30399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Organisation">2b992b95db2333004fc1cc30399619b4</sys_scope>
+        <sys_update_name>sys_hub_flow_027d8029dba333004fc1cc3039961908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-28 09:21:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=027d8029dba333004fc1cc3039961908"/>
+    <sys_variable_value action="delete_multiple" query="document_key=027d8029dba333004fc1cc3039961908"/>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>sssw</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 06:22:16</sys_created_on>
+        <sys_id>c19a0971db2333004fc1cc303996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sssw</sys_name>
+        <sys_package display_value="Event Organisation" source="x_398374_event_org">2b992b95db2333004fc1cc30399619b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Organisation">2b992b95db2333004fc1cc30399619b4</sys_scope>
+        <sys_update_name>sp_page_c19a0971db2333004fc1cc303996199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 06:22:16</sys_updated_on>
+        <title>sssw</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=c19a0971db2333004fc1cc303996199b"/>
+</record_update>
